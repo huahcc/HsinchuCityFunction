@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/splash.png
   actions:
     - label: "連結(待定)"
-      url: "https://huahcc.github.io/HsinchuCityFunction/"
+      url: "/竹東鎮-流年動態/"
 excerpt: "綜合POI點與google map評論分析新竹城市功能blablabla.....(簡述)"
 intro: 
   - excerpt: "評比以POI點搜尋量、道路密度、google map評論之時態變化、情緒分析等，解析新竹各行政區之城市功能blablabla......(多一點描述)"
