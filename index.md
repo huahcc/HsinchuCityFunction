@@ -45,15 +45,15 @@ comments_features:
     alt: "placeholder image 2"
     title: "情緒分析"
     excerpt: '對各POI點之google map評論進行情緒分析，並統整出行政區內的情緒值'
-    # url: "#test-link"
-    # btn_label: "Read More"
-    # btn_class: "btn--primary"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/temp_placeholder.png
     title: "動態分析"
     excerpt: "根據評論之年、日、時進行地點的動態分析"
-    # url: "#test-link"
-    # btn_label: "Read More"
-    # btn_class: "btn--primary"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 other_features:
   - image_path: /assets/images/temp_placeholder.png
     alt: "placeholder image 2"
@@ -90,10 +90,10 @@ research_conclusion:
 
 {% include feature_row id="research_method" type="center" %}
 
-{% include feature_row id="POI_features" type="center" %}
+{% include feature_row id="POI_features"%}
 
-{% include feature_row id="comments_features" type="center" %}
+{% include feature_row id="comments_features" %}
 
-{% include feature_row id="other_features" type="center" %}
+{% include feature_row id="other_features" %}
 
 {% include feature_row id="research_conclusion" type="center" %}
