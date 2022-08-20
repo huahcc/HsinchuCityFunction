@@ -7,12 +7,12 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/splash.png
   actions:
-    - label: "綜合互動式地圖"
+    - label: "點擊前往"
       url: "/interactive-map/"
-excerpt: "以POI點與google map評論進行新竹城市功能分析"
+excerpt: "以互動式地圖概括呈現資訊分析結果，包含POI點分析、Google評論情緒與動態分析、輔助資料可視化等"
 research_method:
   - title: "研究方法 & 資料"
-    excerpt: "以POI點、google map評論之時態變化、情緒分析等輔以輔助資料，解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
+    excerpt: "以POI點、google map評論之時態變化、情緒分析等輔以輔助資料，<br>解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
