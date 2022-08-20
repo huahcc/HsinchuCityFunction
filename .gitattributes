@@ -7,4 +7,3 @@ _sass/minimal-mistakes/vendor/* linguist-vendored
 CHANGELOG.md                    text merge=union
 docs/_docs/18-history.md        text merge=union
 *.md                            text
-/_pages/interactive_map.html filter=lfs diff=lfs merge=lfs -text
