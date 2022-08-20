@@ -12,7 +12,7 @@ header:
 excerpt: "以POI點與google map評論進行新竹城市功能分析"
 research_method:
   - title: "研究方法 & 資料"
-    excerpt: "以POI點搜尋量、道路密度、google map評論之時態變化、情緒分析等，解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
+    excerpt: "以POI點、google map評論之時態變化、情緒分析等輔以輔助資料，解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
