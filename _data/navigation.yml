@@ -2,6 +2,8 @@
 main:
   - title: "首頁"
     url: /
+  - title: "互動地圖"
+    url: /interactive-map/
   - title: "導覽"
     url: /navigation/
 

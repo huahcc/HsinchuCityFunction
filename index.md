@@ -9,7 +9,7 @@ header:
   actions:
     - label: "點擊前往"
       url: "/interactive-map/"
-excerpt: "以互動式地圖概括呈現資訊分析結果，包含POI點分析、Google評論情緒與動態分析、輔助資料可視化等"
+excerpt: "以視覺化互動式地圖概括呈現新竹城市功能資訊分析結果，包含POI點分析、Google評論情緒與動態分析、輔助資料等"
 research_method:
   - title: "研究方法 & 資料"
     excerpt: "以POI點、google map評論之時態變化、情緒分析等輔以輔助資料，<br>解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
