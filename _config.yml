@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh-TW"
-title                    : "Hsinchu City's Function"
+title                    : "新竹城市功能"
 title_separator          : "-"
 subtitle                 : "以網路眾包評論及興趣點為基礎進行城市功能分區及城市活力分析" #把論文名稱放在副標題 # site tagline that appears below site title in masthead
 name                     : "周湘筑"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/icon.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "新竹城市分析" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Hsinchu City's Function" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
