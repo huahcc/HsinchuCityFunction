@@ -7,48 +7,78 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/splash.png
   actions:
-    - label: "連結(待定)"
-      url: "/竹東鎮-流年動態/"
-excerpt: "綜合POI點與google map評論分析新竹城市功能blablabla.....(簡述)"
+    - label: "綜合互動式地圖"
+      url: "/interactive-map/"
+excerpt: "以POI點與google map評論進行新竹城市功能分析"
 intro: 
-  - excerpt: "評比以POI點搜尋量、道路密度、google map評論之時態變化、情緒分析等，解析新竹各行政區之城市功能blablabla......(多一點描述)"
-feature_row:
+  - excerpt: "評比以POI點搜尋量、道路密度、google map評論之時態變化、情緒分析等，解析新竹各行政區之城市功能\n以下為各項目分析內容，請點入觀看"
+research_method:
+  - title: "研究方法 & 資料"
+    excerpt: ''
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+POI_features:
   - image_path: assets/images/temp_placeholder.png
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "POI聚集地"
+    excerpt: "以**DBSCAN**方式描繪POI點搜尋結果之分佈"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/temp_placeholder.png
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "POI熵(Entropy)"
+    excerpt: "根據POI類別，計算不同行政區之功能Entropy"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/temp_placeholder.png
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/temp_placeholder.png
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "商業功能密度"
+    excerpt: "各行政區之商業機能比較"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
+comments_features:
   - image_path: /assets/images/temp_placeholder.png
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    title: "情緒分析"
+    excerpt: '對各POI點之google map評論進行情緒分析，並統整出行政區內的情緒值'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row4:
+  - image_path: /assets/images/temp_placeholder.png
+    title: "動態分析"
+    excerpt: "根據評論之年、日、時進行地點的動態分析"
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+other_features:
   - image_path: /assets/images/temp_placeholder.png
     alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    title: "路網密度"
+    excerpt: '根據open street map資料庫計算各行政區之路網密度'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/temp_placeholder.png
+    alt: "placeholder image 2"
+    title: "電信信令"
+    excerpt: '根據電信信令資料計算人口移動資訊'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/temp_placeholder.png
+    alt: "placeholder image 2"
+    title: "消費熱度"
+    excerpt: '根據發票統計資料計算各區消費熱度'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+research_conclusion:
+  - title: "資料統整 & 總結"
+    excerpt: '根據上述所有資料進行回歸分析與統整結論'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -58,8 +88,12 @@ feature_row4:
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="research_method" type="center" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="POI_features" type="center" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="comments_features" type="center" %}
+
+{% include feature_row id="other_features" type="center" %}
+
+{% include feature_row id="research_conclusion" type="center" %}
