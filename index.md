@@ -18,6 +18,7 @@ research_method:
     btn_class: "btn--primary"
 POI_features:
   - image_path: /assets/images/DBSCAN_placeholder.png
+    image_max_size: 720px
     alt: "POICluster"
     title: "POI聚集地"
     excerpt: "以**DBSCAN**方式描繪POI點搜尋結果之分佈"
@@ -25,6 +26,7 @@ POI_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/Entropy_placeholder.png
+    image_max_size: 720px
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "POIEntropy"
     title: "POI熵(Entropy)"
@@ -33,6 +35,7 @@ POI_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/temp_placeholder.png
+    image_max_size: 720px
     title: "商業功能密度"
     excerpt: "各行政區之商業機能比較"
     url: "#test-link"
@@ -40,6 +43,7 @@ POI_features:
     btn_class: "btn--primary"
 comments_features:
   - image_path: /assets/images/Sentiment_placeholder.png
+    image_max_size: 720px
     alt: "placeholder image 2"
     title: "情緒分析"
     excerpt: '對各POI點之google map評論進行情緒分析，並統整出行政區內的情緒值'
@@ -47,6 +51,7 @@ comments_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/dynamic_placeholder.png
+    image_max_size: 720px
     title: "動態分析"
     excerpt: "根據評論之年、日、時進行地點的動態分析"
     url: "#test-link"
@@ -54,6 +59,7 @@ comments_features:
     btn_class: "btn--primary"
 other_features:
   - image_path: /assets/images/road_placeholder.png
+    image_max_size: 720px
     alt: "placeholder image 2"
     title: "路網密度"
     excerpt: '根據open street map資料庫計算各行政區之路網密度'
@@ -61,6 +67,7 @@ other_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/population_placeholder.png
+    image_max_size: 720px
     alt: "placeholder image 2"
     title: "電信信令"
     excerpt: '根據電信信令資料計算人口移動資訊'
@@ -68,6 +75,7 @@ other_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/shopping_placeholder.jpg
+    image_max_size: 720px
     alt: "placeholder image 2"
     title: "消費熱度"
     excerpt: '根據發票統計資料計算各區消費熱度'
