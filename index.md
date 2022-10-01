@@ -13,23 +13,23 @@ excerpt: "以視覺化互動式地圖概括呈現新竹城市功能資訊分析�
 research_method:
   - title: "研究方法 & 資料"
     excerpt: "以POI點、google map評論之時態變化、情緒分析等輔以輔助資料，<br>解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
-    url: "#test-link"
+    url: "ResearchMethod&Data"
     btn_label: "Read More"
     btn_class: "btn--primary"
 POI_features:
-  - image_path: assets/images/temp_placeholder.png
-    alt: "placeholder image 1"
+  - image_path: /assets/images/DBSCAN_placeholder.png
+    alt: "POICluster"
     title: "POI聚集地"
     excerpt: "以**DBSCAN**方式描繪POI點搜尋結果之分佈"
-    url: "#test-link"
+    url: "POICluster"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp_placeholder.png
+  - image_path: /assets/images/Entropy_placeholder.png
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
+    alt: "POIEntropy"
     title: "POI熵(Entropy)"
     excerpt: "根據POI類別，計算不同行政區之功能Entropy"
-    url: "#test-link"
+    url: "POIEntropy"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/temp_placeholder.png
@@ -39,35 +39,35 @@ POI_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
 comments_features:
-  - image_path: /assets/images/temp_placeholder.png
+  - image_path: /assets/images/Sentiment_placeholder.png
     alt: "placeholder image 2"
     title: "情緒分析"
     excerpt: '對各POI點之google map評論進行情緒分析，並統整出行政區內的情緒值'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp_placeholder.png
+  - image_path: /assets/images/dynamic_placeholder.png
     title: "動態分析"
     excerpt: "根據評論之年、日、時進行地點的動態分析"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 other_features:
-  - image_path: /assets/images/temp_placeholder.png
+  - image_path: /assets/images/road_placeholder.png
     alt: "placeholder image 2"
     title: "路網密度"
     excerpt: '根據open street map資料庫計算各行政區之路網密度'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp_placeholder.png
+  - image_path: /assets/images/population_placeholder.png
     alt: "placeholder image 2"
     title: "電信信令"
     excerpt: '根據電信信令資料計算人口移動資訊'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/temp_placeholder.png
+  - image_path: /assets/images/shopping_placeholder.jpg
     alt: "placeholder image 2"
     title: "消費熱度"
     excerpt: '根據發票統計資料計算各區消費熱度'
