@@ -89,11 +89,13 @@
   position: relative;
   border-radius: $border-radius;
   overflow: hidden;
-  /*
+  
   img {
-    width: 100%;
+    width: auto;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
-  */
 }
 
 .archive__item-caption {
