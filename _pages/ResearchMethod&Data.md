@@ -17,7 +17,7 @@ permalink: /ResearchMethod&Data/
 /Users/wenyalintw/Desktop/HUA/HsinchuCityFunction/assets/images/post_images/研究流程.png
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/post_images/研究流程.png" alt="">
+<img src="/assets/images/post_images/研究流程.png" alt="">
 
 
 The preferred way of using images is placing them in the `/assets/images/` directory and referencing them with an absolute path. Prepending the filename with `{% raw %}{{ site.url }}{{ site.baseurl }}/assets/images/{% endraw %}` will make sure your images display properly in feeds and such.
