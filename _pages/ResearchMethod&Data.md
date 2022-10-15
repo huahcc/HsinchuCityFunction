@@ -15,7 +15,7 @@ permalink: /ResearchMethod&Data/
 本章節將先介紹本研究之分析流程，與其所需應用到的研究方法。
 
 
-<img src="../assets/images/research_flow.png" alt="">
+<img src="/assets/images/research_flow.png" alt="">
 
 
 
