@@ -44,7 +44,7 @@ other_features:
     alt: "placeholder image 2"
     title: "路網密度"
     excerpt: '根據open street map資料庫計算各行政區之路網密度'
-    url: "#test-link"
+    url: "StreetDensity"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/shopping_placeholder.jpg
