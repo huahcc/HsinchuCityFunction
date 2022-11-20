@@ -28,9 +28,16 @@ POI_features:
 comments_features:
   - image_path: /assets/images/Sentiment_placeholder.png
     alt: "placeholder image 2"
-    title: "情緒分析"
-    excerpt: '對各POI點之Google Map評論進行情緒分析，並統整出行政區內的情緒值 & 情緒多樣性'
-    url: "#test-link"
+    title: "情緒值分析"
+    excerpt: '對各POI點之Google Map評論進行情緒值之正負向分析'
+    url: "SentimentalScore"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Sentiment_placeholder.png
+    alt: "placeholder image 2"
+    title: "情緒多樣性分析"
+    excerpt: '對評論進行情緒分類，並計算情緒多樣性'
+    url: "SentimentalDiversity"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/dynamic_placeholder.png
