@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "周湘筑"
+  name             : "周湘筑(hcc)"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "清華大學學習科學與科技研究生\n奔向內心極簡的路上"
   location         : "Taiwan"
   email            :
   links:
@@ -115,7 +115,7 @@ author:
       url: "mailto:xcjocjo@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://huahcc.netlify.app/zh-hant/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
