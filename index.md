@@ -43,7 +43,7 @@ comments_features:
   - image_path: /assets/images/dynamic_placeholder.png
     title: "動態分析"
     excerpt: "根據評論之年、日、時進行地點的動態分析"
-    url: "#test-link"
+    url: "Dynamic"
     btn_label: "Read More"
     btn_class: "btn--primary"
 other_features:
@@ -58,7 +58,7 @@ other_features:
     alt: "placeholder image 2"
     title: "消費熱度"
     excerpt: '根據發票統計資料計算各區消費熱度'
-    url: "#test-link"
+    url: "Consumption"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/population_placeholder.png
