@@ -11,18 +11,18 @@ header:
       url: "/interactive-map/"
 excerpt: "以視覺化互動式地圖概括呈現新竹城市功能資訊分析結果，包含POI點分析、Google評論情緒與動態分析、輔助資料等"
 research_method:
-  - title: "研究方法 & 資料"
+  - title: "研究方法"
     excerpt: "以POI點、Google Map評論之時態變化、情緒分析等輔以輔助資料，<br>解析新竹各行政區之城市功能<br>請點入觀看研究方法細節與使用資料"
-    url: "ResearchMethod&Data"
+    url: "ResearchMethod"
     btn_label: "Read More"
     btn_class: "btn--primary"
 POI_features:
-  - image_path: /assets/images/Entropy_placeholder.png
+    # image_path: /assets/images/Entropy_placeholder.png
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "POIEntropy"
-    title: "POI點分析"
+    # alt: "POIEntropy"
+  - title: "POI點分析"
     excerpt: "透過Google Map API進行POI點抓取、計算PIO Entropy等分析"
-    url: "POIEntropy"
+    url: "POI"
     btn_label: "Read More"
     btn_class: "btn--primary"
 comments_features:
