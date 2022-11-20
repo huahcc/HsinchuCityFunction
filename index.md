@@ -65,13 +65,13 @@ other_features:
     alt: "placeholder image 2"
     title: "城市活力"
     excerpt: '根據電信信令資料分析人口資訊'
-    url: "#test-link"
+    url: "Population"
     btn_label: "Read More"
     btn_class: "btn--primary"
 research_conclusion:
   - title: "資料統整 & 總結"
     excerpt: '根據上述所有資料進行相關性分析與統整結論'
-    url: "#test-link"
+    url: "Conclusion"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
