@@ -33,7 +33,7 @@ comments_features:
     url: "SentimentalScore"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/Sentiment_placeholder2.png
+  - image_path: /assets/images/Sentiment_placeholder2.jpeg
     alt: "placeholder image 2"
     title: "情緒多樣性分析"
     excerpt: '對評論進行情緒分類，並計算情緒多樣性'
