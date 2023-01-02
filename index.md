@@ -26,42 +26,42 @@ POI_features:
     btn_label: "Read More"
     btn_class: "btn--primary"
 comments_features:
-  - image_path: /assets/images/Sentiment_placeholder.png
+  - image_path: /assets/images/sentiment_value.png
     alt: "placeholder image 2"
     title: "情緒值分析"
     excerpt: '對各POI點之Google Map評論進行情緒值之正負向分析'
     url: "SentimentalScore"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/Sentiment_placeholder2.jpeg
+  - image_path: /assets/images/sentiment_entropy.png
     alt: "placeholder image 2"
     title: "情緒多樣性分析"
     excerpt: '對評論進行情緒分類，並計算情緒多樣性'
     url: "SentimentalDiversity"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/dynamic_placeholder.png
+  - image_path: /assets/images/dynamic.png
     title: "動態分析"
     excerpt: "根據評論之年、日、時進行地點的動態分析"
     url: "Dynamic"
     btn_label: "Read More"
     btn_class: "btn--primary"
 other_features:
-  - image_path: /assets/images/road_placeholder.png
+  - image_path: /assets/images/Road.png
     alt: "placeholder image 2"
     title: "路網密度"
     excerpt: '根據open street map資料庫計算各行政區之路網密度'
     url: "StreetDensity"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/shopping_placeholder.jpg
+  - image_path: /assets/images/consumption.png
     alt: "placeholder image 2"
     title: "消費熱度"
     excerpt: '根據發票統計資料計算各區消費熱度'
     url: "Consumption"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/population_placeholder.png
+  - image_path: /assets/images/population.png
     alt: "placeholder image 2"
     title: "城市活力"
     excerpt: '根據電信信令資料分析人口資訊'
