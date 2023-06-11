@@ -68,9 +68,15 @@ other_features:
     url: "Population"
     btn_label: "Read More"
     btn_class: "btn--primary"
+data_regression:
+  - title: "迴歸分析"
+    excerpt: '根據上述所有資料進行統整，進行相關性分析、迴歸分析'
+    url: "Regression"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 research_conclusion:
-  - title: "資料統整 & 總結"
-    excerpt: '根據上述所有資料進行相關性分析與統整結論'
+  - title: "結論與未來展望"
+    excerpt: '對本研究之過程與結果進行探討、反思，與提出未來方向'
     url: "Conclusion"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -88,5 +94,7 @@ research_conclusion:
 
 <div style="text-align:center;"><h1>獨立資料</h1></div>
 {% include feature_row id="other_features" %}
+
+{% include feature_row id="data_regression" type="center" %}
 
 {% include feature_row id="research_conclusion" type="center" %}
