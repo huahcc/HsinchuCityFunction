@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "default" # "air", "aqua", "contrast", "d
 locale                   : "zh-TW"
 title                    : "新竹城市功能"
 title_separator          : "-"
-subtitle                 : "以網路眾包評論及興趣點為基礎進行城市功能分區及城市活力分析" #把論文名稱放在副標題 # site tagline that appears below site title in masthead
+subtitle                 : "使用城市眾包數據分析與視覺化用以輔助城市規劃與治理" #把論文名稱放在副標題 # site tagline that appears below site title in masthead
 name                     : "周湘筑"
 description              : "綜合分析新竹行政區功能"
 url                      : "https://huahcc.github.io/HsinchuCityFunction/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
